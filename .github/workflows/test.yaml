@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 18
       - name: Navigate to project folder
-        run: cd Code/02\ Basics/02\ Starting Project/src
+        run: cd /home/runner/work/github-actions-course-resources/Code/02\ Basics/02\ Starting Project/src
       - name: Install Dependencies
         run: npm install
       - name: Run Tests
